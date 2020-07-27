@@ -1,5 +1,7 @@
+# Launching a virtual linux server
+
 ## Steps to launch server
-**Launch server*
+**Launch server**
 - vagrant up
 
 **Check server status**
@@ -65,6 +67,12 @@
 **exit**
 - Logs out if logged in as admin etc.
 
+**apt-get install nginx**
+- Install package
+- If not in root then may need to specify sudo
+
+**systemctl status nginx**
+- Checks status of module
 
 ## This is a test read me inside the vagrant file
 
