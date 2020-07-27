@@ -1,7 +1,17 @@
-# This is a test read me inside the vagrant file
+## Steps to launch server
+**Launch server*
+- vagrant up
 
-# Commands used
+**Check server status**
+- vagrant status
 
+**Step into server**
+- vagrant ssh
+
+**Check for and download updates**
+- sudo apt-get update -y
+
+## Commands used
 **clear**
 - clears screen of previous commands for better visual interface
 
@@ -37,5 +47,24 @@
 **cd name of directory/**
 - Changes directory to directory specified
 - Autofill of directoy name
-- 
+
+**rm myfirstfile.txt**
+- Remove file
+- Can use sudo key word first if need admin level
+
+**sudo su**
+- Log in as admin
+- Known as root user in linux
+
+**id**
+- Checks who is the machine
+
+**echo "Hello, world"**
+- Used to print on command line
+
+**exit**
+- Logs out if logged in as admin etc.
+
+
+## This is a test read me inside the vagrant file
 
